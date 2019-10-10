@@ -3,4 +3,4 @@ language: generic
 services:
   - docker
 script:
-  - docker build --no-cache -t htpchelper/utilities -f ./Dockerfile .
+  - ./build.sh
